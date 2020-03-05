@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/11.0.4" xmlns:fx="http://javafx.com/fxml/1" fx:controller="unsw.dungeon.ControlsController">
+   <children>
+      <Label layoutX="143.0" layoutY="269.0" text="SWING SWORD: SPACEBAR" textFill="WHITE">
+         <font>
+            <Font size="23.0" />
+         </font></Label>
+      <Label layoutX="146.0" layoutY="217.0" text="RIGHT: RIGHT ARROW KEY" textFill="WHITE">
+         <font>
+            <Font size="23.0" />
+         </font></Label>
+      <Label layoutX="188.0" layoutY="82.0" text="UP: UP ARROW KEY" textFill="WHITE">
+         <font>
+            <Font size="23.0" />
+         </font></Label>
+      <Label layoutX="163.0" layoutY="171.0" text="LEFT: LEFT ARROW KEY" textFill="WHITE">
+         <font>
+            <Font size="23.0" />
+         </font></Label>
+      <Label layoutX="150.0" layoutY="128.0" text="DOWN: DOWN ARROW KEY" textFill="WHITE">
+         <font>
+            <Font size="22.0" />
+         </font></Label>
+      <Label layoutX="174.0" layoutY="27.0" text="HOW TO PLAY" textFill="WHITE">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Button fx:id="mainMenu" layoutX="222.0" layoutY="326.0" mnemonicParsing="false" onAction="#handleMainMenu" style="-fx-background-color: yellow;" text="BACK TO MAIN MENU" />
+   </children>
+</Pane>

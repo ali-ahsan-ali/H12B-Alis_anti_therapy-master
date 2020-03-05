@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="400.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/11.0.4" xmlns:fx="http://javafx.com/fxml/1" fx:controller="unsw.dungeon.GameOverController">
+   <children>
+      <Button fx:id="tryAgain" layoutX="162.0" layoutY="216.0" mnemonicParsing="false" onAction="#handleTryAgain" style="-fx-background-color: red;" text="Try Again" />
+      <Button fx:id="mainMenu" layoutX="158.0" layoutY="291.0" mnemonicParsing="false" onAction="#handleMainMenu" style="-fx-background-color: yellow;" text="Main Menu" />
+      <Label layoutX="100.0" layoutY="47.0" text="GAME OVER" textFill="WHITE">
+         <font>
+            <Font size="33.0" />
+         </font>
+      </Label>
+      <Label layoutX="127.0" layoutY="125.0" text="YOU SUCK!" textFill="WHITE">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>
